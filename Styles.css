@@ -1,11 +1,14 @@
 .grid-container {
     display: flex;
     flex-wrap: wrap;
-    width: 850px;
+    gap: 1px;
+    padding: 1px;
+    width: 400px;
+    background: teal;
 }
 
 .grid-item {
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
+    width: 24px;
+    aspect-ratio: 1;
+    background: white;
 }
