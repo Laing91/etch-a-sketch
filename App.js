@@ -8,3 +8,13 @@ for (let i = 0; i < 16 * 16; i++) {
     gridItem.style.backgroundColor = "red";
   });
 }
+
+function resetDivs() {
+  const gridItems = document.querySelectorAll(".grid-item");
+  gridItems.forEach((gridItem) => {
+    gridItem.style.backgroundColor = "white";
+  });
+}
+
+const resetButton = document.getElementById("resetButton");
+resetButton.addEventListener("click", resetDivs);
