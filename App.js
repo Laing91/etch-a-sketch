@@ -5,7 +5,7 @@ for (let i = 0; i < 16 * 16; i++) {
   gridContainer.appendChild(gridItem);
 
   gridItem.addEventListener("mouseover", () => {
-    gridItem.style.backgroundColor = "red";
+    gridItem.style.backgroundColor = "black";
   });
 }
 
