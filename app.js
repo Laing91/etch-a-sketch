@@ -9,6 +9,7 @@ for (let i = 0; i < 16 * 16; i++) {
   });
 }
 
+// Function to reset the grid blocks back to the default color (white).
 function resetDivs() {
   const gridItems = document.querySelectorAll(".grid-item");
   gridItems.forEach((gridItem) => {
